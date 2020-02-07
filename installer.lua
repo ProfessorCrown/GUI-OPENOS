@@ -91,8 +91,8 @@ end
 -- print("Downloading HIPOS file list...")
 local path = "/HIPBIOS/System/Files.cfg"
 local URLs = {
-EFI = "https://raw.githubusercontent.com/ProfessorCrown/hipred/master/master/bios.lua",
-applicationList = "https://raw.githubusercontent.com/ProfessorCrown/hipred/master/master/files.cfg",
+EFI = "https://raw.githubusercontent.com/ProfessorCrown/GUI-OPENOS/master/bios.lua",
+applicationList = "https://raw.githubusercontent.com/ProfessorCrown/GUI-OPENOS/master/files.cfg",
 	}
 wget(URLs.applicationList, path)
 applicationList = unserializeFile(path)
